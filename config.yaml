@@ -1,0 +1,19 @@
+weapons:
+  lasers:
+    - type: "LF-3"
+      amount: 18
+    - type: "LF-2"
+      amount: 0
+  rocket_launcher:
+    type: "HST-2"
+ammos:
+  lasers: "LCB-10"
+  rockets: "PLT-3030"
+  rocket_launcher: "ECO-10" 
+drone_formation: "chevron"
+rocket_refining: "seprom"
+laser_refining: "none"
+beginner_boost: True
+leonov_boost: True
+# must be between 0 and 1, multiplies with uri per hour at the end
+efficiency: 0.7

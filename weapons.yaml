@@ -1,0 +1,61 @@
+lasers:
+  - type: "LF-3"
+    damage: 150
+  - type: "LF-2"
+    damage: 100
+rocket_launchers:
+  - type: "HST-2"
+    mag_size: 5
+    # time in seconds
+    reload_time: 3
+ammos:
+  laser:
+    - type: "LCB-10"
+      multiplier: 1
+      cost_u: 0
+      cost_c: 10
+    - type: "MCB-25"
+      multiplier: 2
+      cost_u: 0.5
+      cost_c: 0
+    - type: "MCB-50"
+      multiplier: 3
+      cost_u: 1
+      cost_c: 0
+    - type:  "MLCB-15"
+      multiplier: 1.35
+      cost_u: 0
+      cost_c: 1590
+  launcher:
+    - type: "ECO-10"
+      damage: 2000
+      cost_u: 0
+      cost_c: 1500
+  rocket:
+    - type: "R-310"
+      damage: 1000
+      cost_u: 0
+      cost_c: 100
+    - type: "PLT-2026"
+      damage: 2000
+      cost_u: 0
+      cost_c: 500
+    - type: "PLT-2021"
+      damage: 4000
+      cost_u: 5
+      cost_c: 0
+    - type: "PLT-3030"
+      damage: 6000
+      cost_u: 7
+      cost_c: 0
+drone_formations:
+  - type: "chevron"
+    rocket_boost: 0.65
+    laser_boost: 1
+refining:
+  - type: "seprom"
+    boost: 0.6
+    cost_u: 1.2
+  - type: "none"
+    boost: 1
+    cost_u: 0

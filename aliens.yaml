@@ -1,0 +1,13 @@
+aliens:
+  - type: "Sibelon"
+    hp: 400000
+    rewards:
+      uridium: 250
+      credits: 561875
+    isLower: True
+  - type: "Kristallon"
+    hp: 700000
+    rewards:
+      uridium: 642
+      credits: 1700000
+    isLower: False
